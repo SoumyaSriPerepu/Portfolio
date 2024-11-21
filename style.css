@@ -254,6 +254,38 @@ body {
 }
 
 /* Selected State */
+/* Beyond the Bell Container Styling */
+.styled-container {
+    border: 2px solid #17a2b8; /* Cyan border to match title color */
+    background-color: #f0fcff; /* Light cyan background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 20px auto;
+}
+
+.highlight-title {
+    color: #17a2b8; /* Cyan color for emphasis */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.about-content ol {
+    padding-left: 20px; /* Indentation for ordered list */
+    color: #333; /* Dark grey for readability */
+}
+
+.about-content li {
+    margin-bottom: 10px;
+    line-height: 1.6; /* Better spacing between lines */
+}
+
+/* Add hover effect for items */
+.about-content li: hover {
+    color: #17a2b8; /* Highlight items on hover */
+    font-weight: bold;
+}
+
 .edutimeline-item.selected {
     background-color: #0077b5;
     color: #fff;
